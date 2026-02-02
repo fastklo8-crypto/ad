@@ -33,7 +33,7 @@ ADVERTISEMENT_TEXT = """📢 Реклама на Троєщині — Прайс
 👉 Для замовлення пишіть адмінам ❤️"""
 
 SHORT_TEXT = "Запроси друзів та сусідів до чату\n\n"
-share_button = InlineKeyboardButton("Поділитися", url="https://t.me/share/url?url=https://t.me/troesh&text=Запрошую до чату Троєщини!")
+share_button = InlineKeyboardButton("Поділитися", url="https://t.me/share/url?url=https://t.me/+SOp8Ag6O2B81NmFi&text=Запрошую до чату Троєщини!")
 keyboard = InlineKeyboardMarkup([[share_button]])
 
 async def post_main_message():
